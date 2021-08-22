@@ -10,6 +10,10 @@ const randomMessage = obj => {
     let word1 = obj.firstWord[Math.floor(Math.random() * obj.firstWord.length)];
     let word2 = obj.secondWord[Math.floor(Math.random()* obj.secondWord.length)];
     let word3 = obj.lastWord[Math.floor(Math.random()* obj.lastWord.length)];
+    console.log('Knock-Knock');
+
+    console.log(`${word1} ${word2} ${word3}`);
+
 };
 
 
